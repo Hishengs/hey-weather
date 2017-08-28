@@ -1,5 +1,5 @@
 /app/node_modules
 /app/platforms
-/app/hooks
-/app/plugins
+/app/.DS_Store
 /server/node_modules
+/server/.DS_Store
