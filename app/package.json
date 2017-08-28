@@ -1,0 +1,44 @@
+{
+  "name": "hwind",
+  "version": "1.0.0",
+  "description": "App for HWind",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "axios": "^0.16.2",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015-node6": "^0.4.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^0.28.5",
+    "echarts": "^3.7.0",
+    "fastclick": "^1.0.6",
+    "file-loader": "^0.11.2",
+    "less-loader": "^4.0.5",
+    "lodash": "^4.17.4",
+    "style-loader": "^0.18.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue": "^2.4.2",
+    "vue-loader": "^13.0.4",
+    "vue-router": "^2.7.0",
+    "vuex": "^2.3.1",
+    "vux": "^2.5.8",
+    "vux-loader": "^1.1.5",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "vue-template-compiler": "^2.4.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --colors --config=webpack-dev.config.js",
+    "build-dev": "webpack-dev-server --progress --hide-modules --colors --config=webpack-dev.config.js"
+  },
+  "author": "Hisheng",
+  "license": "ISC"
+}
